@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+:root {
+    --cor1: #1c1c1c;
+    --cor2: #2c2c2c;
+    --font-normal: "Google Sans", Arial, Helvetica, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--cor1);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor2), #3c3c3c);
+    font: normal normal 1em var(--font-normal);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img#logo {
+    max-height: 55px;
+    
+}
+
+.rank {
+    background-color: #1c1c1c;
+    max-width: 1500px;
+    min-height: 125px;
+    margin: 30px auto;
+}
+.tier {
+    background-color: blue;
+    max-width: 125px;
+    min-height: 125px;
+}
+
+div#download {
+    background-color: var(--cor1);
+    max-width: 950px;
+    min-height: 125px;
+    border-radius: 30px;
+    margin: 30px auto;
+}
+
+#download-interativ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-text {
+    display: inline;
+    margin: auto;
+    color: white;
+}
+
+footer {
+    background-color: #1c1c1c;
+    min-width: 50px;
+}
+footer p {
+    color: white;
+    text-align: center;
+}
